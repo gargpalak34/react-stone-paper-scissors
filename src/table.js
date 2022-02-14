@@ -130,7 +130,7 @@ function Table() {
     setResults(results)
     if (results === 'win') {
       setScore(score + 1)
-    }else{
+    }else if(results === 'lose'){
       setScore(score - 1);
     }
   }
