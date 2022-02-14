@@ -30,7 +30,7 @@ function Header() {
   return (
     <HeaderStyled>
       <h1>
-        Rock <br /> Paper <br />  Scissors
+        Stone <br /> Paper <br />  Scissors
       </h1>
       <Score />
 
