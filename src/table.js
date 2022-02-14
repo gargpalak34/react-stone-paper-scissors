@@ -124,8 +124,6 @@ function Table() {
     setPlaying(true)
     setPick(name)
     const house = await launchHousePick()
-    // console.log(house)
-    // console.log('la casa eligió ', house)
     const results = playWithIA(name, house)
     setResults(results)
     if (results === 'win') {
@@ -185,7 +183,7 @@ function Table() {
               </div>
               <div className="in-game">
                 <Token playing={playing} name={housePick} isShadowAnimated={(results === 'lose')} />
-                <p>The house Picked</p>
+                <p>Computer</p>
               </div>
               <div className="results">
                 {
